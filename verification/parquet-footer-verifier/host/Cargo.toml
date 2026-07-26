@@ -1,0 +1,11 @@
+[package]
+name = "parquet-footer-host-checks"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+bytes = "1.1"
+parquet = { path = "../../../parquet", default-features = false }
+
+[workspace]
